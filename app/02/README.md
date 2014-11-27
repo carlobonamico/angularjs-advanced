@@ -22,4 +22,4 @@ work
 '''
 
 ##References
-[References for Lab02](angularjs-quickstart-02.md)
+[References for Lab02](angularjs-advanced-02.md)

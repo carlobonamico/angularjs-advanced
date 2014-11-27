@@ -1,12 +1,13 @@
-#Lab 04
+#Lab 06
 Esercizio:
 
-* trasformare il cart object in un cartService
-* farne lo unit test
+* creare una direttiva "icecream-flavor"
+* parametri:
+* flavor (e.g. "chocolate", "strawberry")
+* maxQuantity : integer
+* selection: { flavor, quantity }
 
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
+* usarla dentro un ng-repeat per creare una lista di gelati
 
 
 
@@ -23,4 +24,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab06](angularjs-advanced-06.md)

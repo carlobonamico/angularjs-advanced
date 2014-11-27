@@ -1,12 +1,9 @@
-#Lab 04
-Esercizio:
+#Lab 07
+Create a flavor selection directive using a jquery plugin
 
-* trasformare il cart object in un cartService
-* farne lo unit test
-
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
+#Lab - advanced
+* explore the source of
+* http://angular-ui.github.io/ui-calendar/
 
 
 
@@ -23,4 +20,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab07](angularjs-advanced-07.md)

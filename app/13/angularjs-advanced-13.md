@@ -1,46 +1,13 @@
-##Topics
-* Best Practices
-* learning resources
-* roadmap towards Angular 2.0, Javascript/ECMAScript 6 and Web Components
-
-
+#Best Practices
 
 ##Discussion
-* Limits of Angular
-  * Dynamic page rendering, so SEO is hard
-    * temporary solutions with PhantomJS on the server side
-    * a few cloud-based services
-  * Tooling is good but can improve
-  * too magic vs too constrictive
-
   * http://www.thoughtworks.com/insights/blog/angularjs-bad-bits
 
-  * Limits of Angular vs the need for Software Engineering Principles
 
 
 
 #Lessons learnt
-* Like all the magic wands, you could end up like Mikey Mouse as the apprentice sorcerer
-* Getting started is very easy
-* But to go further you need to learn the key concepts
-  * scopes
-  * dependency injection
-  * directives
-  * promises
-
 * http://voidcanvas.com/why-angularjs-is-generally-better-than-emberjs-and-backbonejs/
-
-
-
-##Best Practices
-* lightweight controllers
-* move everything that you can to services
-  * and test them
-
-* encapsulate components with directives
-
-* use good names!
-* define your own additional conventions
 
 
 
@@ -52,9 +19,6 @@
 
 
 ## Selection of JS libraries
-* now every possible <<insert any word>>.js exists...
-* which to use in your critical project?
-* copy & paste is quick, but...
 * http://www.johnpapa.net/javascript-soup/
 
 
@@ -75,9 +39,6 @@
 
 
 ##Performance
-* When does it matter?
-
-* Where does it matter
   * https://medium.com/@jeffwhelpley/is-angularjs-fast-enough-98dcf96406c8
 
 * Performance tips
@@ -103,14 +64,7 @@
 
 
 #The Future
-* AngularJS 2.0 will be _Mobile First_
-* performance
-* web component integration
-* browser support
 * [http://blog.angularjs.org/2014/03/angular-20.html](http://blog.angularjs.org/2014/03/angular-20.html)
-
-* Web Components on Mobile
-* EcmaScript 6 - ``Object.observe()`` -> ultrafast binding
 
 
 
@@ -143,17 +97,6 @@
 * Style guides
   * https://github.com/johnpapa/angularjs-styleguide
   * https://github.com/toddmotto/angularjs-styleguide
-
-
-
-#Lab 13
-Esercizio:
-
-* eseguire dei test end-to-end
-
-
-#What have we learnt?
-* what to watch for as your application grows
 
 
 

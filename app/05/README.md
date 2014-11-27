@@ -1,12 +1,10 @@
-#Lab 04
-Esercizio:
+#Lab: write a custom filter
+* creare una form per la registrazione di un numero di telefono
+* campo che accetta numeri con anche - (es. 010-555666)
+* aggiungere validazioni e classi css
+Write a filter which only displays numbers
+* visualizzare tramite filtro il solo valore numerico
 
-* trasformare il cart object in un cartService
-* farne lo unit test
-
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
 
 
 
@@ -23,4 +21,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab05](angularjs-advanced-05.md)

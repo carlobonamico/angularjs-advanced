@@ -1,12 +1,9 @@
-#Lab 04
+#Lab 12
 Esercizio:
 
-* trasformare il cart object in un cartService
-* farne lo unit test
+* integrate ng-grid to display pizza menu data
 
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
+* Implementare la form di signup con angular-material
 
 
 
@@ -23,4 +20,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab12](angularjs-advanced-12.md)

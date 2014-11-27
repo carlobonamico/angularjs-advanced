@@ -1,5 +1,11 @@
-##Lab11
-Esercizio: suddivisione dell applicativo in diverse sezioni navigabili e bookmarkabili
+#Lab 11
+Esercizio:
+
+* scrivere un client REST per il seguente servizio
+* http://jsonplaceholder.typicode.com/todos
+
+* inviare un header di autenticazione
+
 
 
 ##Lab structure
@@ -15,4 +21,4 @@ work
 '''
 
 ##References
-[References for Lab11](angularjs-quickstart-11.md)
+[References for Lab11](angularjs-advanced-11.md)

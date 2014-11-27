@@ -1,12 +1,10 @@
-#Lab 04
 Esercizio:
 
-* trasformare il cart object in un cartService
-* farne lo unit test
+* il modulo carrello degli ordini segnala l'aggiunta di un elemento
 
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
+* un modulo special_offerts propone una offerta se il prodotto costa piu' di X
+* il modulo History aggiunge l'operazione a un log delle operazioni effettuate
+* provare ad abilitare / disabilitare questi moduli on demand
 
 
 
@@ -23,4 +21,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab09](angularjs-advanced-09.md)

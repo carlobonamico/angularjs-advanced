@@ -23,4 +23,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab04](angularjs-advanced-04.md)

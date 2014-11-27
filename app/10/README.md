@@ -1,12 +1,8 @@
-#Lab 04
+#Lab 10
 Esercizio:
 
-* trasformare il cart object in un cartService
-* farne lo unit test
-
-* Definire un modulo di servizi offers.services che dipende dal cart
-* definire un provider configurabile in termini di
-* minimo numero di prodotti che da diritto allo sconto
+* A) riscrivere il routing dell' applicativo con ui-router
+* B) gestire due livelli di stato: pagina e visualizzazione degli ingredienti di una pizza
 
 
 
@@ -23,4 +19,4 @@ work
 '''
 
 ##References
-[References for Lab04](angularjs-quickstart-04.md)
+[References for Lab10](angularjs-advanced-10.md)
