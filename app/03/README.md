@@ -1,8 +1,10 @@
-#Lab 01
+#Lab 03
 Esercizio:
 
-* Analizzare il funzionamento della applicazione di esempio:
-* Pizza 5 and Ice Cream 5
+* Scrivere un test per lo shopping cart
+* add product
+* getNumber of products
+* getTotalPrice
 
 
 
@@ -19,4 +21,4 @@ work
 '''
 
 ##References
-[References for Lab11](angularjs-advanced-01.md)
+[References for Lab03](angularjs-quickstart-03.md)
