@@ -3,17 +3,17 @@
  */
 "use strict";
 
-var orders = angular.module('orders', ['ngResource', "cart.services"]);
-
-orders.controller("OrderCtrl", function($scope, cartService) {
-    $scope.order = cartService.getCart();
-    
-    $scope.totalPrice = cartService.getTotalPrice()
+orders.controller("OrderCtrl", function($scope) {
+    $scope.order = {
+        pizzaCount : 0,
+        items : [],
+        totalPrice : 0
+    };
 
     $scope.add = function(pizza)
     {
-        //validazioni a livello di ui
-        
-       cartService.add(pizza);//TODO REFACTOR
+        $scope.order.items.push(pizza);
+        $scope.order.pizzaCount = $scope.order.pizzaCount + 1;
+        $scope.order.totalPrice = $scope.order.totalPrice + pizza.price; //TODO REFACTOR
     }
 });
