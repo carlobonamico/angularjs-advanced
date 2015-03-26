@@ -5,6 +5,14 @@
 angular.module('orders', []);
 
 angular.module('orders').service("OrderService", function() {
+    this.empty = function (){
+        return {
+        pizzaCount : 0,
+        items : [],
+        totalPrice : 0
+        }; 
+        return order;
+    };
     var order = this.empty();
     
     this.add = function(pizza)
@@ -17,13 +25,7 @@ angular.module('orders').service("OrderService", function() {
         return order;
     };
     
-    this.empty = function (){
-        order = {
-        pizzaCount : 0,
-        items : [],
-        totalPrice : 0
-        }; 
-    };
+
 });
 
 angular.module('orders').controller("OrderCtrl", function(OrderService) {
@@ -32,7 +34,7 @@ angular.module('orders').controller("OrderCtrl", function(OrderService) {
     this.empty = function()
     {
         OrderService.empty();
-    }
+    };
 });
 
 angular.module('orders').controller("AddOrderCtrl", function(OrderService) {
@@ -40,6 +42,6 @@ angular.module('orders').controller("AddOrderCtrl", function(OrderService) {
     this.add = function(pizza)
     {
         OrderService.add(pizza);
-    }
+    };
 });
 

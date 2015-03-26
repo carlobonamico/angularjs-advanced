@@ -1,0 +1,16 @@
+            <div>
+            <h2>Pizza {{pizza.name}}</h2>
+
+            <p>{{pizza.caption}}</p>
+
+            <p><a class="btn btn-default" href="#pizza/{{pizza.id}}" role="button"><span class="glyphicon glyphicon-list-alt"></span>
+                Ingredients</a></p>
+            <!-- TODO recursive binding of ingredients -->
+            <img ng-src="http://lorempizza.com/i/300/240?id={{pizza.id}}"/> <!-- WAS src="http://lorempizza.com/i/300/240" -->
+
+            <h3>{{pizza.price}} euro</h3>
+            <!-- ng-click="order.pizzaCount = order.pizzaCount +1" -->
+
+                <div ng-include="'partials/orderButton.html'"></div>
+                
+        </div>

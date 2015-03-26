@@ -66,26 +66,7 @@
 
 <div class="container">
 
-    <div ng-controller="OrderCtrl as orderCtrl">
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Your order
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        You have {{ orderCtrl.order.pizzaCount }} in your order for a total of {{orderCtrl.order.totalPrice}} euros
-                        <!-- great for debugging -->
-                        <div>
-                            {{orderCtrl.order.items}}
-
-                        </div>
-                    </div>
-                </div>
-
-        
-
-    </div> <!-- end of Order Controller -->
-    
+    <div ng-include="'partials/order.html'"></div>
     <ng-view />
 </div>
 

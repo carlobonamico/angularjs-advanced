@@ -1,0 +1,22 @@
+    <div ng-controller="OrderCtrl as orderCtrl">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Your order
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        You have {{ orderCtrl.order.pizzaCount }} in your order for a total of {{orderCtrl.order.totalPrice}} euros
+                        <!-- great for debugging -->
+                        <div>
+                            <ul>
+                            <li ng-repeat="item in orderCtrl.order.items track by $index">
+                                {{item.name}}   <button ng-click="orderCtrl.remove(item)">Rimuovi</button> 
+                            </li>
+                            
+</ul>
+                            
+                        </div>
+                    </div>
+                </div>
+    </div> <!-- end of Order Controller -->
+    
