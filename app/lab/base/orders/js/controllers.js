@@ -2,9 +2,9 @@
  *
  */
 
-var orders = angular.module('orders', ['ngResource']);
+angular.module('orders', []);
 
-orders.controller("OrderCtrl", function($scope) {
+angular.module('orders').controller("OrderCtrl", function($scope) {
     $scope.order = {
         pizzaCount : 0,
         items : [],
