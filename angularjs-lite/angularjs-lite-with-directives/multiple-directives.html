@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="angular-lite.js"></script>
+
+  </head>
+
+  <body ng-app>
+    <h1>Hello angular</h1>
+    <input type="text" ng-model="message2"> </input>
+
+    <h3>Result2... <span ng-bind="message2"></span> </h3>
+
+    <input type="text" ng-model="message"> </input>
+
+    <h3>Result... <span ng-bind="message"></span> </h3>
+
+    <input type="text" ng-model="flag"> </input>
+
+        <h3>Result... <span ng-hide="flag">elemento da nascondere</span> </h3>
+
+        <h3>Result... <span ng-bind="message" ng-hide="flag"></span> </h3>
+
+    <!--
+    <div>Result...{{message}}</div>
+
+    <div ng-bind="'Result...' + message"></div>
+    -->
+
+  </body>
+
+</html>
